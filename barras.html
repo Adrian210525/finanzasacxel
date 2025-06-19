@@ -27,7 +27,7 @@
 
             var data = response.getDataTable();
             var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
-            chart.draw(data, { title:"Finanzas", titleFontSize:40, width: '100%', isStacked: true
+            chart.draw(data, { title:"Entrenamiento", titleFontSize:40, width: '100%', isStacked: true
             ,hAxis: {title: "Duración", titleColor:'#00ff00', titleFontSize:20}
             ,vAxis: {title: "Entrenamiento", titleColor:'#00ff00', titleFontSize:20}} 
             );
